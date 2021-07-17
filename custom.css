@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: url("images/narure_bg.jpg");
+}
+
+.container {
+    padding: 56px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.form {
+    background-color: white;
+    padding: 1em;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    width: 325px;
+
+@media only screen and (min-width: 768px) {
+    width: 50%;
+  }
+}
+
+
+
+
+input
+{
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #f38021;
+    padding: 9px;
+}
+
+input:focus
+{
+    border: 1px solid #fa8a2e;
+}
+
+input:active
+{
+    border: 1px solid #fa8a2e;
+}
+
+.button
+{
+    font-size: large;
+    background-color: transparent;
+    border: 1px solid #f38021;
+    border-radius: 3px;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.button:hover
+{
+    background-color: #f5852a;
+    border: 1px solid #f38021;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+}
